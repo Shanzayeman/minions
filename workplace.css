@@ -1,0 +1,33 @@
+.me { 
+    /*working on h1 background*/
+    border-style: solid dotted;
+    border-color: slategrey;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    color: rgb(168, 168, 22);
+}
+
+* {
+    background-color: rgb(169, 202, 221);
+    /* staric is used for whole tags*/
+}
+
+#us,
+tr,
+th,
+td {
+    /*i made the border collapse so that double line will not appear*/
+    background-color: rgb(8, 77, 77);
+    border: 3px dashed;
+    border-collapse: collapse;
+}
+#decor{
+    color: rgba(8, 77, 77,0.5);
+}
+h3{
+    background-image: url(download\ \(1\).jfif);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-attachment: fixed;
+}
